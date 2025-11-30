@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Blue_Screen_Repair_Detector</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+   <Nullable>disable</Nullable>
+   <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AntDesign.Extensions.Localization" Version="1.5.0" />
+    <PackageReference Include="AntdUI" Version="2.2.0" />
+    <PackageReference Include="AntdUI.EmojiFluentFlat" Version="2025.1.31" />
+    <PackageReference Include="WinAntdUI" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
